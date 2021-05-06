@@ -1,0 +1,493 @@
+/**
+ * @Author: Mohammed Cherbatji <mo>
+ * @Date:   2019-05-02T13:55:23+01:00
+ * @Filename: mystyle.css
+ * @Last modified by:   mo
+ * @Last modified time: 2019-10-17T10:14:11+01:00
+ */
+
+
+
+/* @import url('https://rsms.me/inter/inter.css'); */
+
+/* html {
+    font-family: 'Inter', sans-serif;
+} */
+
+/* @supports (font-variation-settings: normal) {
+    html {
+        font-family: 'Inter var', sans-serif;
+    }
+} */
+
+/*
+html {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(180deg, #f7f3f1 0%, #ffffff 100%);
+} */
+
+/*/////////////////ICONS/////////////////*/
+
+/* @font-face {
+    font-family: 'SeachangeNow';
+    src: url('../fonts/SeachangeNow.eot');
+    src: url('../fonts/SeachangeNow.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SeachangeNow.woff') format('woff'),
+        url('../fonts/SeachangeNow.ttf') format('truetype'),
+        url('../fonts/SeachangeNow.svg#SeachangeNow') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} */
+
+[class*='ic-']:before {
+    display: inline-block;
+    font-family: "SeachangeNow";
+    font-style: normal;
+    /* font-size: 40px; */
+    font-weight: normal;
+    line-height: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.ic {
+  font-family: "SeachangeNow";
+}
+
+.ic-i:before {
+    content: "\0041";
+}
+
+.ic-c:before {
+    content: "\0042";
+}
+
+.ic-ce:before {
+    content: "\0043";
+}
+
+.ic-v:before {
+    content: "\0044";
+}
+
+.ic-s:before {
+    content: "\0045";
+}
+
+.ic-settings:before {
+    content:"\0046";
+}
+
+.colored-icons {
+    font-size: 52px;
+}
+
+.icons {
+    padding-top: 8px;
+    width: 80px;
+    height: 80px;
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 14px 20px rgba(48, 65, 154, 0.4);
+    box-sizing: border-box;
+    font-size: 52px;
+    transition: 0.3s;
+
+    font-family: 'SeachangeNow';
+}
+
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+
+.icons:hover {
+    width: 78px;
+    height: 78px;
+    box-shadow: 0px 4px 10px rgba(48, 65, 154, 0.4);
+}
+
+.white {
+    color: white;
+}
+
+.text-gradient:before,
+.text-gradient {
+    background-image: linear-gradient(0deg, #5bcbf5 0%, #2f4a9f 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.my-red {
+    background: red;
+}
+
+.my-pink {
+    background: pink;
+}
+
+/* .my-container {
+    margin: auto;
+    max-width: 564px;
+    height: 1218px;
+    padding-left: 22px;
+    padding-right: 22px;
+    box-sizing: border-box;
+    background: #f0f4fa;
+    overflow: hidden;
+} */
+.margin-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.insights-blue {
+    align-items: center;
+    background: linear-gradient(213.61deg, rgba(91, 199, 241, 1) 0%, rgba(47, 74, 155, 1) 100%);
+    border-radius: 45px;
+    box-shadow: 0px 0px 25px rgba(9, 5, 192, 0.2);
+    width: 86%;
+    /* max-height: 500px; */
+    /* padding: 20% 20% 60% 20%; */
+    /* transition: 0.3s;*/
+}
+
+/*  */
+
+.settings-card {
+    align-items: center;
+    /* background: linear-gradient(213.61deg, rgba(91, 199, 241, 1) 0%, rgba(47, 74, 155, 1) 100%); */
+    background: white;
+    border-radius: 45px;
+    box-shadow: 0px 0px 25px rgba(9, 5, 192, 0.2);
+    width: 86%;
+    margin-left: auto;
+    margin-right: auto;
+    /* padding: 20% 20% 60% 20%; */
+    /* transition: 0.3s;*/
+
+}
+
+.center-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.stats-insights {
+    display: flex;
+    justify-content: center;
+    z-index: 0 !important;
+}
+
+.top-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 6.5%;
+}
+
+.top-bar-2 {
+    width: 100%;
+    /* padding: 10% 10% 30% 10%; */
+}
+
+.nav-icons {
+    width: 8%;
+    height: 8.2%;
+}
+
+.nav-icon-forward {
+    width: 8%;
+    transform: rotate(180deg);
+}
+
+.top-icon{
+  margin-bottom: 5%;
+  color: #000000;
+}
+
+
+
+/* .flexb {
+  margin-right: 50px;
+} */
+
+.big-white {
+    color: white;
+    font-size: 60px;
+}
+
+.dots {
+    color: white;
+    font-size: 40px;
+    letter-spacing: -0.022em;
+    /*  line-height: 112px;*/
+    /*line-height: 100%;*/
+    font-weight: 900;
+    /* float: right; */
+}
+
+
+/* .ios .title {
+  letter-spacing: -0.88pt;
+}
+.ios .subtitle {
+  letter-spacing: -0.022em;
+} */
+
+.android .title {
+  font-family: "Inter-ExtraBold";
+  /* letter-spacing: -0.022em; */
+}
+
+.android .subtitle {
+  font-family: "Inter-Medium";
+  /* letter-spacing: -0.021em; */
+}
+
+.state-editable {
+    color: white;
+    font-size: 25px;
+    letter-spacing: -0.022em;
+    font-weight: 500;
+    border-width:0px;
+    border: none;
+    border-bottom-width: 0;
+    border-color:rgba(0, 0, 0, 0);
+    /* margin-bottom: 50px; */
+    text-align: left;
+}
+
+.summary {
+    width: 83.9%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.statistics {
+    display: flex;
+    flex-direction: column;
+    margin-top: 32.8%;
+    width: 100%;
+}
+
+.insights {
+    height: 578px;
+    background: linear-gradient(213.61deg, rgba(91, 199, 241, 1) 0%, rgba(47, 74, 155, 1) 100%);
+    border-radius: 45px 0px 0px 45px;
+    box-shadow: 0px 0px 25px rgba(9, 5, 192, 0.4);
+    width: 60px;
+    position: absolute;
+    top: 280px;
+    left: 1500px;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.insights:hover {
+    box-shadow: 0px 0px 25px rgba(9, 5, 192, 0.6);
+}
+
+
+.blue:before,
+.blue {
+    background: linear-gradient(224.36deg, rgba(91, 198, 240, 1) 0%, rgba(47, 74, 154, 1) 100%);
+}
+
+
+.teale:before,
+.teale {
+    background: linear-gradient(232.91deg, rgba(148, 209, 207, 1) 0%, rgba(0, 165, 150, 1) 100%);
+}
+
+
+.green:before,
+.green {
+    background: linear-gradient(229.71deg, rgba(149, 198, 143, 1) 0%, rgba(0, 96, 51, 1) 100%);
+}
+
+
+.red:before,
+.red {
+    background: linear-gradient(221.19deg, rgba(255, 225, 128, 1) 0%, rgba(234, 63, 35, 1) 100%);
+}
+
+.purple:before,
+.purple {
+    background: linear-gradient(228.01deg, rgba(187, 165, 205, 1) 0%, rgba(100, 63, 148, 1) 100%);
+}
+
+
+
+
+.blue:before,
+.blue {
+    background-image: linear-gradient(0deg, #5bcbf5 0%, #2f4a9f 70%);
+}
+
+
+.teale:before,
+.teale {
+    background-image: linear-gradient(0deg, #99d6d4 0%, #00aa9b 70%);
+}
+
+
+.green:before,
+.green {
+    background-image: linear-gradient(0deg, #9acb94 0%, #005f33 70%);
+}
+
+
+.red:before,
+.red {
+    background-image: linear-gradient(0deg, #ffd480 0%, #ef3f23 70%);
+
+
+}
+
+.purple:before,
+.purple {
+    background-image: linear-gradient(0deg, #c0aad2 0%, #643f99 70%);
+}
+
+
+.state-stat-section {
+    width: 58.6%;
+}
+
+.state-stats {
+    font-size: 26px;
+    letter-spacing: -0.019em;
+    line-height: 34px;
+    /* font-weight: 400 !important; */
+}
+
+.number {
+    font-size: 40px;
+    letter-spacing: -0.022em;
+    font-weight: 900;
+
+}
+
+
+
+.icons {
+    /*width: 7%;*/
+    width: 12.3%;
+}
+
+.next {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 50%;
+}
+
+.gesture {
+    width: 60px;
+}
+
+/*Gesture*/
+
+.hand-x {
+    fill: transparent;
+    stroke: #000;
+    stroke-width: 12px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+/*.arrow-left,
+.line-horizontal {
+    fill: transparent;
+    stroke: #000;
+    stroke-width: 8px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}*/
+
+/* @keyframes swipe-x { */
+    /*    0% {
+        transform: translateX(0px);
+    }
+
+    25% {
+        transform: translateX(50px) rotateZ(10deg);
+    }*/
+
+    /* 50% {
+        transform: translateX(0px);
+    }
+
+    75% {
+        transform: translateX(-50px) rotateZ(-10deg);
+    }
+} */
+
+.hand-x {
+    animation: swipe-x 1.25s ease-in-out backwards;
+    animation-iteration-count: infinite;
+}
+
+.sum_title {
+  color: #000000;
+  font-size: 22px;
+  letter-spacing: -0.019em;
+  font-weight: 400 !important;
+}
+
+.ios .sum_title {
+  font-size: 20px;
+}
+
+.sum_count {
+  color: #000000;
+  font-size: 38px;
+  letter-spacing: -0.022em;
+  font-weight: 900;
+}
+
+.android .sum_count {
+  font-family: "Inter-ExtraBold";
+}
+
+
+.white {
+  color: #ffffff;
+}

@@ -1,0 +1,9 @@
+{
+  "android": {
+    "v8Flags": "--expose_gc",
+    "markingMode": "none"
+  },
+  "main": "main",
+  "name": "5-state-tracker",
+  "version": "2.0.0"
+}

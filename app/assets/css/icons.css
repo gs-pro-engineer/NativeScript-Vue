@@ -1,0 +1,104 @@
+/**
+ * @Author: Mohammed Cherbatji <mo>
+ * @Date:   2019-10-13T11:58:02+01:00
+ * @Filename: icons.css
+ * @Last modified by:   mo
+ * @Last modified time: 2019-10-16T12:56:35+01:00
+ */
+
+
+
+/* @font-face {
+    font-family: 'SeachangeNow';
+    src: url('../fonts/SeachangeNow.eot');
+    src: url('../fonts/SeachangeNow.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SeachangeNow.woff') format('woff'),
+        url('../fonts/SeachangeNow.ttf') format('truetype'),
+        url('../fonts/SeachangeNow.svg#SeachangeNow') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+[class*='ic-']:before {
+    display: inline-block;
+    font-family: "SeachangeNow";
+    font-style: normal;
+    /* font-size: 40px; */
+
+  /*  font-weight: normal;
+    line-height: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}*/
+
+.ic {
+  font-family: SeachangeNow;
+}
+
+.ic {
+    display: inline-block;
+    font-family: SeachangeNow, "SeachangeNow";
+    font-style: normal;
+    font-size: 40px;
+    font-weight: normal;
+    line-height: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.ic {
+  font-family: "SeachangeNow";
+}
+
+.ic-i:before {
+    content: "\0041";
+}
+
+.ic-c:before {
+    content: "\0042";
+}
+
+
+.ic-i:before {
+    content: "\0041";
+}
+
+.ic-c:before {
+    content: "\0042";
+}
+
+.ic-ce:before {
+    content: "\0043";
+}
+
+.ic-v:before {
+    content: "\0044";
+}
+
+.ic-s:before {
+    content: "\0045";
+}
+
+.ic-se:before {
+    content:"\0046";
+}
+
+.ic-settings:before {
+  content:"\0046";
+}
+.ic-back:before {
+  content:"\0047";
+}
+.ic-save:before {
+  content:"\0048";
+}
+.ic-edit:before {
+  content:"\0049";
+}
+.ic-cancel:before {
+  content:"\004a";
+}
+.ic-trophy:before {
+  content:"\004b";
+}

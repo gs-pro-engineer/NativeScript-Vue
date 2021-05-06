@@ -1,0 +1,7 @@
+// export const SET_ITEMS = 'SET_ITEMS'
+// export const ADD_ITEM = 'ADD_ITEM'
+export const UPDATE_ITEM = 'UPDATE_ITEM'
+export const UPDATE_COUNTER = 'UPDATE_COUNTER'
+export const SET_TIME = 'SET_TIME'
+export const COMPLETE_STATE = 'COMPLETE_STATE'
+// export const DELETE_ITEM = 'DELETE_ITEM'

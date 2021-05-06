@@ -1,0 +1,45 @@
+// @Author: Mohammed Cherbatji <mo>
+// @Date:   2019-04-16T15:11:18+01:00
+// @Filename: app.scss
+// @Last modified by:   mo
+// @Last modified time: 2019-10-16T18:59:17+01:00
+
+
+
+// NativeScript core theme
+// @see https://docs.nativescript.org/ui/theme
+// @import '~nativescript-theme-core/scss/light';
+// @import "nativescript-theme-core/scss/core/_index";
+
+// Override variables here
+
+// @import '~nativescript-theme-core/scss/index';
+// @import "nativescript-theme-core/scss/core/_index";
+
+// Global SCSS styling
+// @see https://docs.nativescript.org/ui/styling
+// @import './assets/css/all.css';
+
+// @import '~nativescript-theme-core/scss/index';
+// @import '~nativescript-theme-core/css/core.css';
+@import '~nativescript-theme-core/css/core.css';
+@import '~nativescript-theme-core/css/grey.css';
+
+@import './assets/css/mystyle.css';
+
+// .fa {
+//    font-family: FontAwesome, "FontAwesome";
+// }
+//
+// .fa {
+//     font-family: "Font Awesome 5 Free", "fa-solid-900";
+// }
+//
+.ic {
+   font-family: SeachangeNow;
+}
+
+
+.white {
+  color: #ffffff;
+}
